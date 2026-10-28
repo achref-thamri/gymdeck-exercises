@@ -1,0 +1,147 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+        },
+        "name": {
+            "type": "string",
+            "minLength": 1
+        },
+        "muscles": {
+            "type": "object",
+            "properties": {
+                "primary": {
+                    "type": "string",
+                    "enum": [
+                        "chest",
+                        "back",
+                        "shoulders",
+                        "biceps",
+                        "triceps",
+                        "quads",
+                        "hamstrings",
+                        "glutes",
+                        "calves",
+                        "abs"
+                    ]
+                },
+                "secondary": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "chest",
+                            "back",
+                            "shoulders",
+                            "biceps",
+                            "triceps",
+                            "quads",
+                            "hamstrings",
+                            "glutes",
+                            "calves",
+                            "abs"
+                        ]
+                    }
+                }
+            },
+            "required": [
+                "primary",
+                "secondary"
+            ],
+            "additionalProperties": false
+        },
+        "equipment": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "bodyweight",
+                    "dumbbell",
+                    "barbell",
+                    "kettlebell",
+                    "cable",
+                    "band",
+                    "pullup-bar",
+                    "bench",
+                    "chest-press-machine",
+                    "pec-deck",
+                    "lat-pulldown",
+                    "seated-row-machine",
+                    "shoulder-press-machine",
+                    "leg-press",
+                    "leg-extension",
+                    "leg-curl",
+                    "smith-machine",
+                    "hip-thrust-machine",
+                    "calf-raise-machine"
+                ]
+            }
+        },
+        "mechanic": {
+            "type": "string",
+            "enum": [
+                "compound",
+                "isolation"
+            ]
+        },
+        "level": {
+            "type": "string",
+            "enum": [
+                "beginner",
+                "intermediate",
+                "expert"
+            ]
+        },
+        "steps": {
+            "minItems": 2,
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1
+            }
+        },
+        "tips": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1
+            }
+        },
+        "source": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "id": {
+                    "type": "string",
+                    "minLength": 1
+                }
+            },
+            "required": [
+                "name",
+                "id"
+            ],
+            "additionalProperties": false
+        },
+        "$schema": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "muscles",
+        "equipment",
+        "mechanic",
+        "level",
+        "steps"
+    ],
+    "additionalProperties": false
+}
