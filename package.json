@@ -1,0 +1,84 @@
+{
+    "name": "@achref-thamri/exercises",
+    "version": "1.0.0",
+    "description": "Open exercise library: names, step-by-step instructions, target muscles and equipment.",
+    "keywords": [
+        "exercises",
+        "workout",
+        "fitness",
+        "gym",
+        "dataset"
+    ],
+    "license": "MIT",
+    "author": "Achref Thamri",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/achref-thamri/gymdeck-exercises.git"
+    },
+    "homepage": "https://github.com/achref-thamri/gymdeck-exercises#readme",
+    "bugs": "https://github.com/achref-thamri/gymdeck-exercises/issues",
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        },
+        "./steps": {
+            "import": "./dist/steps.js",
+            "require": "./dist/steps.cjs"
+        },
+        "./exercises.json": "./dist/exercises.json",
+        "./schema.json": "./schema.json",
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "dist",
+        "schema.json"
+    ],
+    "scripts": {
+        "generate": "tsx scripts/generate.ts",
+        "build": "npm run generate && tsdown",
+        "typecheck": "npm run generate && tsc --noEmit",
+        "lint": "eslint .",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "prepare": "husky",
+        "prepublishOnly": "npm run build",
+        "pretest": "npm run generate"
+    },
+    "lint-staged": {
+        "*.{ts,js}": [
+            "eslint --fix --max-warnings=0",
+            "prettier --write"
+        ],
+        "!(package-lock).{json,md,yml,yaml}": [
+            "prettier --write"
+        ]
+    },
+    "engines": {
+        "node": ">=24",
+        "npm": ">=11.19"
+    },
+    "devDependencies": {
+        "@arethetypeswrong/core": "^0.18.5",
+        "@eslint/js": "^9.39.5",
+        "@types/node": "^24.19.2",
+        "eslint": "^9.39.5",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.7",
+        "globals": "^17.13.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^17.6.0",
+        "prettier": "^3.9.10",
+        "publint": "^0.3.25",
+        "tsdown": "^0.23.3",
+        "tsx": "^4.23.15",
+        "typescript": "~6.0.3",
+        "typescript-eslint": "^8.72.1",
+        "vitest": "^5.0.5",
+        "zod": "^4.6.7"
+    }
+}

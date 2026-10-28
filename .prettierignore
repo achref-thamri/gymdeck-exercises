@@ -1,0 +1,9 @@
+# Generated
+src/generated/
+schema.json
+package-lock.json
+
+# Build output
+node_modules/
+dist/
+coverage/
