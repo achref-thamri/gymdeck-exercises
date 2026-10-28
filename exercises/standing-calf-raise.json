@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "standing-calf-raise",
+    "name": "Standing calf raise",
+    "muscles": {
+        "primary": "calves",
+        "secondary": []
+    },
+    "equipment": ["bodyweight"],
+    "mechanic": "isolation",
+    "level": "beginner",
+    "steps": [
+        "Stand with the balls of your feet on a step or plate, heels hanging off, holding something for balance.",
+        "Lower your heels as far as they comfortably go.",
+        "Rise onto your toes as high as you can and pause at the top."
+    ],
+    "tips": ["Full stretch at the bottom, pause at the top."]
+}

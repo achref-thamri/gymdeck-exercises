@@ -1,0 +1,21 @@
+{
+    "$schema": "../schema.json",
+    "id": "Side_Bridge",
+    "name": "Side Bridge",
+    "muscles": {
+        "primary": "abs",
+        "secondary": ["shoulders"]
+    },
+    "equipment": ["bodyweight"],
+    "mechanic": "isolation",
+    "level": "beginner",
+    "steps": [
+        "Lie on your side with your forearm on the floor, elbow under your shoulder and legs stacked.",
+        "Lift your hips until your body forms a straight line from head to feet.",
+        "Hold the position, then lower your hips and switch sides."
+    ],
+    "source": {
+        "name": "free-exercise-db",
+        "id": "Side_Bridge"
+    }
+}

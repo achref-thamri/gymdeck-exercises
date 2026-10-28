@@ -1,0 +1,21 @@
+{
+    "$schema": "../schema.json",
+    "id": "Dumbbell_Scaption",
+    "name": "Dumbbell Scaption",
+    "muscles": {
+        "primary": "shoulders",
+        "secondary": ["back"]
+    },
+    "equipment": ["dumbbell"],
+    "mechanic": "isolation",
+    "level": "beginner",
+    "steps": [
+        "This corrective exercise strengthens the muscles that stabilize your shoulder blade. Hold a light weight in each hand, hanging at your sides. Your thumbs should pointing up.",
+        "Begin the movement raising your arms out in front of you, about 30 degrees off center. Your arms should be fully extended as you perform the movement.",
+        "Continue until your arms are parallel to the ground, and then return to the starting position."
+    ],
+    "source": {
+        "name": "free-exercise-db",
+        "id": "Dumbbell_Scaption"
+    }
+}

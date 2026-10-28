@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "band-row",
+    "name": "Band row",
+    "muscles": {
+        "primary": "back",
+        "secondary": ["biceps"]
+    },
+    "equipment": ["band"],
+    "mechanic": "compound",
+    "level": "beginner",
+    "steps": [
+        "Anchor the band at chest height and step back until it is taut, arms straight in front of you.",
+        "Pull the handles to your lower ribs, driving the elbows back and squeezing the shoulder blades together.",
+        "Pause, then let your arms straighten slowly against the band."
+    ],
+    "tips": ["Squeeze the shoulder blades together."]
+}

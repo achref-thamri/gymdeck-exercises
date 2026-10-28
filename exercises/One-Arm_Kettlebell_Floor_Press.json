@@ -1,0 +1,21 @@
+{
+    "$schema": "../schema.json",
+    "id": "One-Arm_Kettlebell_Floor_Press",
+    "name": "One-Arm Kettlebell Floor Press",
+    "muscles": {
+        "primary": "chest",
+        "secondary": ["triceps"]
+    },
+    "equipment": ["kettlebell"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Lie on the floor holding a kettlebell with one hand, with your upper arm supported by the floor. The palm should be facing in.",
+        "Press the kettlebell straight up toward the ceiling, rotating your wrist.",
+        "Lower the kettlebell back to the starting position and repeat."
+    ],
+    "source": {
+        "name": "free-exercise-db",
+        "id": "One-Arm_Kettlebell_Floor_Press"
+    }
+}

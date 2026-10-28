@@ -1,0 +1,24 @@
+{
+    "$schema": "../schema.json",
+    "id": "Freehand_Jump_Squat",
+    "name": "Freehand Jump Squat",
+    "muscles": {
+        "primary": "quads",
+        "secondary": ["calves", "glutes", "hamstrings"]
+    },
+    "equipment": ["bodyweight"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Cross your arms over your chest.",
+        "With your head up and your back straight, position your feet at shoulder width.",
+        "Keeping your back straight and chest up, squat down as you inhale until your upper thighs are parallel, or lower, to the floor.",
+        "Now pressing mainly with the ball of your feet, jump straight up in the air as high as possible, using the thighs like springs. Exhale during this portion of the movement.",
+        "When you touch the floor again, immediately squat down and jump again.",
+        "Repeat for the recommended amount of repetitions."
+    ],
+    "source": {
+        "name": "free-exercise-db",
+        "id": "Freehand_Jump_Squat"
+    }
+}

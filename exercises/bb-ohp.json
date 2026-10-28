@@ -1,0 +1,24 @@
+{
+    "$schema": "../schema.json",
+    "id": "bb-ohp",
+    "name": "Barbell overhead press",
+    "muscles": {
+        "primary": "shoulders",
+        "secondary": ["triceps"]
+    },
+    "equipment": ["barbell"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Sit on a bench with back support in a squat rack. Position a barbell at a height that is just above your head. Grab the barbell with a pronated grip (palms facing forward).",
+        "Once you pick up the barbell with the correct grip width, lift the bar up over your head by locking your arms. Hold at about shoulder level and slightly in front of your head. This is your starting position.",
+        "Lower the bar down to the shoulders slowly as you inhale.",
+        "Lift the bar back up to the starting position as you exhale.",
+        "Repeat for the recommended amount of repetitions."
+    ],
+    "tips": ["Squeeze glutes, move your head back to clear the bar."],
+    "source": {
+        "name": "free-exercise-db",
+        "id": "Barbell_Shoulder_Press"
+    }
+}

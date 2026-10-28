@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "kb-suitcase-carry",
+    "name": "Suitcase carry",
+    "muscles": {
+        "primary": "abs",
+        "secondary": ["glutes"]
+    },
+    "equipment": ["kettlebell"],
+    "mechanic": "isolation",
+    "level": "beginner",
+    "steps": [
+        "Pick up a kettlebell in one hand like a suitcase, standing tall with your shoulders level.",
+        "Walk forward with short, steady steps, bracing your core so you don't lean toward the weight.",
+        "Set the bell down after the distance or time, then switch hands."
+    ],
+    "tips": ["Walk tall without leaning to the side."]
+}
