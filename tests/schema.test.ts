@@ -2,7 +2,7 @@ import { describe, expect, expectTypeOf, test } from "vitest";
 import type { z } from "zod";
 
 import { exerciseFileSchema, exerciseSchema } from "../src/schema.js";
-import type { Exercise } from "../src/types.js";
+import type { Exercise, MuscleGroup } from "../src/types.js";
 import { validExercise } from "./fixtures.js";
 
 const issues = (value: unknown): string[] => {
@@ -13,6 +13,11 @@ const issues = (value: unknown): string[] => {
 describe("exerciseSchema", () => {
     test("matches the public Exercise type exactly", () => {
         expectTypeOf<z.infer<typeof exerciseSchema>>().toEqualTypeOf<Exercise>();
+    });
+
+    test("exposes read-only data", () => {
+        expectTypeOf<Exercise["steps"]>().toEqualTypeOf<readonly string[]>();
+        expectTypeOf<Exercise["muscles"]["secondary"]>().toEqualTypeOf<readonly MuscleGroup[]>();
     });
 
     test("accepts a valid exercise", () => {

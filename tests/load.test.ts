@@ -64,6 +64,14 @@ describe("validateExercises", () => {
         expect(problems).toEqual(['b.json: name "push-up" is already used by a.json']);
     });
 
+    test("rejects ids that differ only by case, since they collide on macOS and Windows", () => {
+        const problems = problemsOf([
+            file(validExercise({ id: "Bench", name: "Bench A" })),
+            file(validExercise({ id: "bench", name: "Bench B" })),
+        ]);
+        expect(problems).toEqual(['bench.json: id "bench" differs only by case from Bench.json']);
+    });
+
     test("rejects an empty list", () => {
         expect(problemsOf([])).toEqual(["no exercise files found"]);
     });
