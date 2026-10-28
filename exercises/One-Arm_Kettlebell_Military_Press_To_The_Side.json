@@ -1,0 +1,17 @@
+{
+    "$schema": "../schema.json",
+    "id": "One-Arm_Kettlebell_Military_Press_To_The_Side",
+    "name": "One-Arm Kettlebell Military Press To The Side",
+    "muscles": {
+        "primary": "shoulders",
+        "secondary": ["triceps"]
+    },
+    "equipment": ["kettlebell"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Clean a kettlebell to your shoulder. Clean the kettlebell to your shoulder by extending through the legs and hips as you pull the kettlebell towards your shoulder. Rotate your wrist as you do so, so that the palm faces inward. This will be your starting position.",
+        "Look at the kettlebell and press it up and out until it is locked out overhead.",
+        "Lower the kettlebell back to your shoulder under control and repeat. Make sure to contract your lat, butt, and stomach forcefully for added stability and strength."
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "band-leg-curl",
+    "name": "Band leg curl",
+    "muscles": {
+        "primary": "hamstrings",
+        "secondary": []
+    },
+    "equipment": ["band"],
+    "mechanic": "isolation",
+    "level": "beginner",
+    "steps": [
+        "Anchor the band low and loop it around one ankle, then lie face down with your legs straight.",
+        "Curl your heel toward your glutes, keeping your hips pressed into the floor.",
+        "Lower your leg slowly until it is straight, then switch sides after the set."
+    ],
+    "tips": ["Lie face down, anchor the band low."]
+}

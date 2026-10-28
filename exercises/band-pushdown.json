@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "band-pushdown",
+    "name": "Band pushdown",
+    "muscles": {
+        "primary": "triceps",
+        "secondary": []
+    },
+    "equipment": ["band"],
+    "mechanic": "isolation",
+    "level": "beginner",
+    "steps": [
+        "Anchor the band above head height and hold it with both hands, elbows bent and tucked at your sides.",
+        "Push down until your arms are fully straight, moving only at the elbows.",
+        "Let your hands rise back to chest height under control."
+    ],
+    "tips": ["Anchor the band high, lock out at the bottom."]
+}

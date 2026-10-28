@@ -1,0 +1,17 @@
+{
+    "$schema": "../schema.json",
+    "id": "Kettlebell_Seated_Press",
+    "name": "Kettlebell Seated Press",
+    "muscles": {
+        "primary": "shoulders",
+        "secondary": ["triceps"]
+    },
+    "equipment": ["kettlebell"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Sit on the floor and spread your legs out comfortably.",
+        "Clean one kettlebell to your shoulder.",
+        "Press the kettlebell up and out until it is locked out overhead. Return to the starting position."
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "../schema.json",
+    "id": "Kettlebell_Figure_8",
+    "name": "Kettlebell Figure 8",
+    "muscles": {
+        "primary": "abs",
+        "secondary": ["hamstrings", "shoulders"]
+    },
+    "equipment": ["kettlebell"],
+    "mechanic": "isolation",
+    "level": "intermediate",
+    "steps": [
+        "Place one kettlebell between your legs and take a wider than shoulder width stance. Bend over by pushing your butt out and keeping your back flat.",
+        "Pick up a kettlebell and pass it to your other hand between your legs. The receiving hand should reach from behind the legs. Go back and forth for several repetitions."
+    ]
+}

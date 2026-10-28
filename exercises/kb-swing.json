@@ -1,0 +1,19 @@
+{
+    "$schema": "../schema.json",
+    "id": "kb-swing",
+    "name": "Kettlebell swing",
+    "muscles": {
+        "primary": "hamstrings",
+        "secondary": ["glutes"]
+    },
+    "equipment": ["kettlebell"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Stand with feet a little wider than your hips, the kettlebell on the floor just in front of you.",
+        "Hinge at the hips, grab the handle with both hands and hike the bell back between your legs.",
+        "Snap your hips forward to swing the bell to chest height, arms straight and relaxed.",
+        "Let it fall back between your legs, hinging again, and go straight into the next rep."
+    ],
+    "tips": ["Snap the hips, arms just guide the bell."]
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "../schema.json",
+    "id": "machine-hip-thrust",
+    "name": "Machine hip thrust",
+    "muscles": {
+        "primary": "glutes",
+        "secondary": ["hamstrings"]
+    },
+    "equipment": ["hip-thrust-machine"],
+    "mechanic": "compound",
+    "level": "beginner",
+    "steps": [
+        "Sit in the machine with your upper back against the pad and the belt or pad across your hips.",
+        "Place your feet flat, shoulder-width apart, with knees bent.",
+        "Drive through your heels to lift your hips until your body is straight from shoulders to knees.",
+        "Pause at the top, then lower under control."
+    ],
+    "tips": ["Pause for one second at full lockout."]
+}

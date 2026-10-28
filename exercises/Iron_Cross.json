@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "Iron_Cross",
+    "name": "Iron Cross",
+    "muscles": {
+        "primary": "shoulders",
+        "secondary": ["chest", "glutes", "hamstrings", "back", "quads"]
+    },
+    "equipment": ["dumbbell"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Stand with feet shoulder-width apart, holding a light dumbbell in each hand in front of your thighs.",
+        "Squat down while raising your arms straight out in front of you to shoulder height.",
+        "Stand back up and open your arms out to the sides, still at shoulder height.",
+        "Lower the dumbbells back to your thighs and repeat."
+    ]
+}

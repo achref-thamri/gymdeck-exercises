@@ -1,0 +1,18 @@
+{
+    "$schema": "../schema.json",
+    "id": "pike-push-up",
+    "name": "Pike push-up",
+    "muscles": {
+        "primary": "shoulders",
+        "secondary": ["triceps"]
+    },
+    "equipment": ["bodyweight"],
+    "mechanic": "compound",
+    "level": "beginner",
+    "steps": [
+        "Start in a push-up position, then walk your feet in and lift your hips high so your body forms an upside-down V.",
+        "Bend your elbows and lower the top of your head toward the floor between your hands.",
+        "Press back up until your arms are straight, keeping the hips high."
+    ],
+    "tips": ["Hips high, head travels between the hands."]
+}

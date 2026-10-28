@@ -1,0 +1,19 @@
+{
+    "$schema": "../schema.json",
+    "id": "single-leg-rdl",
+    "name": "Single-leg Romanian deadlift",
+    "muscles": {
+        "primary": "hamstrings",
+        "secondary": ["glutes"]
+    },
+    "equipment": ["bodyweight"],
+    "mechanic": "compound",
+    "level": "intermediate",
+    "steps": [
+        "Stand on one leg with a slight bend in the knee.",
+        "Hinge at the hips, reaching your hands toward the floor while the free leg extends straight behind you.",
+        "Lower until your torso is close to parallel with the floor, keeping your hips square.",
+        "Squeeze the glute of the standing leg to return upright."
+    ],
+    "tips": ["Hips stay square to the floor."]
+}

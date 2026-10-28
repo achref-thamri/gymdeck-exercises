@@ -1,0 +1,17 @@
+{
+    "$schema": "../schema.json",
+    "id": "Side_Jackknife",
+    "name": "Side Jackknife",
+    "muscles": {
+        "primary": "abs",
+        "secondary": []
+    },
+    "equipment": ["bodyweight"],
+    "mechanic": "compound",
+    "level": "beginner",
+    "steps": [
+        "Lie on your side with your legs straight and your top hand behind your head.",
+        "Lift your legs and upper body toward each other, bringing your elbow toward your hip.",
+        "Lower back down slowly and switch sides after the set."
+    ]
+}
