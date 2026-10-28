@@ -73,7 +73,7 @@ Ids are never renamed or removed, because apps store them in workout history. [`
 
 [Semantic versioning](https://semver.org): new exercises, new optional fields and new vocabulary values are minor releases. Renaming or removing a field or value is a major release.
 
-To release, bump the version in a pull request (`npm version minor --no-git-tag-version`). After it merges, tag the merge commit (`git tag v1.1.0 && git push origin v1.1.0`) and CI publishes it to npm with [provenance](https://docs.npmjs.com/generating-provenance-statements).
+To release, bump the version in a pull request (`npm version minor --no-git-tag-version`). After it merges, tag the merge commit (`git tag v1.1.0 && git push origin v1.1.0`). CI stages the release on npm with [provenance](https://docs.npmjs.com/generating-provenance-statements), and a maintainer approves it with 2FA (`npm stage approve <id>` or on npmjs.com) to make it public.
 
 ## License
 
