@@ -10,6 +10,9 @@ permissions:
     # npm trusted publishing: GitHub proves the package was built here, so no npm token is stored.
     id-token: write
 
+# CI only stages the release. A maintainer approves it on npm with 2FA before it goes public,
+# so a compromised workflow can't publish on its own.
+
 jobs:
     publish:
         name: Publish to npm
@@ -35,6 +38,9 @@ jobs:
             - name: Test
               run: npm test
 
-            # prepublishOnly builds the package. Provenance is added automatically with trusted publishing.
-            - name: Publish
-              run: npm publish --access public
+            - name: Build
+              run: npm run build
+
+            # Provenance is added automatically with trusted publishing.
+            - name: Stage on npm
+              run: npm stage publish --access public
