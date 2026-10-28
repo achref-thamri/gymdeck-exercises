@@ -1,11 +1,9 @@
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 
+import { compareStrings } from "./compare.js";
 import { exerciseFileSchema } from "./schema.js";
 import type { Exercise } from "./types.js";
-
-// Code-point order, so generated output is identical on every machine and locale.
-export const compareStrings = (a: string, b: string): number => (a < b ? -1 : a > b ? 1 : 0);
 
 export type ExerciseFile = {
     name: string;
@@ -55,18 +53,29 @@ export const validateExercises = (files: readonly ExerciseFile[]): Exercise[] =>
     const problems: string[] = [];
     const exercises: Exercise[] = [];
     const fileByName = new Map<string, string>();
+    const fileById = new Map<string, string>();
 
     for (const file of [...files].sort((a, b) => compareStrings(a.name, b.name))) {
         const exercise = parseFile(file, problems);
         if (!exercise) continue;
 
-        const key = exercise.name.toLowerCase();
-        const existing = fileByName.get(key);
-        if (existing) {
-            problems.push(`${file.name}: name "${exercise.name}" is already used by ${existing}`);
+        // Case-insensitive file systems can't hold both files, so ids must differ by more than case.
+        const idKey = exercise.id.toLowerCase();
+        const sameId = fileById.get(idKey);
+        if (sameId) {
+            problems.push(`${file.name}: id "${exercise.id}" differs only by case from ${sameId}`);
             continue;
         }
-        fileByName.set(key, file.name);
+
+        const nameKey = exercise.name.toLowerCase();
+        const sameName = fileByName.get(nameKey);
+        if (sameName) {
+            problems.push(`${file.name}: name "${exercise.name}" is already used by ${sameName}`);
+            continue;
+        }
+
+        fileById.set(idKey, file.name);
+        fileByName.set(nameKey, file.name);
         exercises.push(exercise);
     }
 

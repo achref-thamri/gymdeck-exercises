@@ -12,7 +12,8 @@ const text = z
     .refine((value) => value === value.trim(), "must not start or end with whitespace");
 
 const isUnique = (values: readonly string[]): boolean => new Set(values).size === values.length;
-const unique = <T extends z.ZodType<string>>(item: T) => z.array(item).refine(isUnique, "must not contain duplicates");
+const unique = <T extends z.ZodType<string>>(item: T) =>
+    z.array(item).refine(isUnique, "must not contain duplicates").readonly();
 
 const muscle = z.enum(MUSCLES);
 
@@ -26,15 +27,15 @@ export const exerciseSchema = z.strictObject({
             path: ["secondary"],
         }),
     equipment: unique(z.enum(EQUIPMENT))
-        .min(1, "must list at least one item")
+        .refine((items) => items.length > 0, "must list at least one item")
         .refine(
             (items) => !items.includes("bodyweight") || items.length === 1,
             "bodyweight means no equipment, so it must be the only item"
         ),
     mechanic: z.enum(MECHANICS),
     level: z.enum(LEVELS),
-    steps: z.array(text).min(2, "must have at least two steps"),
-    tips: z.array(text).min(1, "remove the field instead of leaving it empty").exactOptional(),
+    steps: z.array(text).min(2, "must have at least two steps").readonly(),
+    tips: z.array(text).min(1, "remove the field instead of leaving it empty").readonly().exactOptional(),
     source: z.strictObject({ name: text, id: text }).exactOptional(),
 });
 

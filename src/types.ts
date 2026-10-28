@@ -14,14 +14,14 @@ export type Exercise = {
     name: string;
     muscles: {
         primary: MuscleGroup;
-        secondary: MuscleGroup[];
+        secondary: readonly MuscleGroup[];
     };
     // Everything needed at once. Bodyweight moves list only "bodyweight".
-    equipment: Equipment[];
+    equipment: readonly Equipment[];
     mechanic: Mechanic;
     level: Level;
-    steps: string[];
-    tips?: string[];
+    steps: readonly string[];
+    tips?: readonly string[];
     source?: ExerciseSource;
 };
 

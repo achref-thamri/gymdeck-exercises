@@ -5,6 +5,8 @@ export default defineConfig({
     // CommonJS too, so Jest setups that don't transform node_modules (like jest-expo) can load it.
     format: ["esm", "cjs"],
     platform: "neutral",
+    // Plain data plus one helper; ES2022 runs on Hermes, browsers and every supported Node.
+    target: "es2022",
     dts: true,
     copy: [{ from: "src/generated/exercises.json", to: "dist" }],
     // Fail the build if package.json exports don't match what was built.
