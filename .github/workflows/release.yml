@@ -1,6 +1,6 @@
 name: Release
 
-# Push a version tag (npm version minor && git push --follow-tags) to publish.
+# Bump the version in a pull request, merge it, then push a matching tag (git tag v1.1.0 && git push origin v1.1.0).
 on:
     push:
         tags: ["v*"]
