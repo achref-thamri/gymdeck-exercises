@@ -2,7 +2,7 @@ import { z } from "zod";
 
 import { EQUIPMENT, LEVELS, MECHANICS, MUSCLES } from "./vocabulary.js";
 
-// Older ids come from free-exercise-db (e.g. "3_4_Sit-Up"), so this allows more than kebab-case.
+// Some older ids use capitals and underscores (e.g. "3_4_Sit-Up"), so this allows more than kebab-case.
 // New exercises should still use kebab-case ids.
 const ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9_.-]*$/;
 

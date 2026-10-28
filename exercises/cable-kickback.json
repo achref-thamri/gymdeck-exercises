@@ -17,9 +17,5 @@
         "Repeat for the recommended amount of repetitions.",
         "Switch legs and repeat the movement for the other side."
     ],
-    "tips": ["Kick back without arching the lower back."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "One-Legged_Cable_Kickback"
-    }
+    "tips": ["Kick back without arching the lower back."]
 }

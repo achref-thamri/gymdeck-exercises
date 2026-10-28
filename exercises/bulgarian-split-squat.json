@@ -18,9 +18,5 @@
         "Repeat for the recommended amount of repetitions.",
         "Switch legs and repeat the movement."
     ],
-    "tips": ["Rear foot on the bench, front shin stays vertical-ish."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "One_Leg_Barbell_Squat"
-    }
+    "tips": ["Rear foot on the bench, front shin stays vertical-ish."]
 }

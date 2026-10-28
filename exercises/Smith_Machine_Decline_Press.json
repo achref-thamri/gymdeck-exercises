@@ -15,9 +15,5 @@
         "Begin the movement by flexing your arms, lowering the bar to your chest.",
         "Pause briefly, and then extend your arms to push the weight back to the starting position.",
         "After completing the desired number of repetitions, rotate the bar to rack the weight."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Smith_Machine_Decline_Press"
-    }
+    ]
 }

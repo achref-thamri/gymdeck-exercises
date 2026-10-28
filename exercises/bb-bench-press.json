@@ -16,9 +16,5 @@
         "Repeat the movement for the prescribed amount of repetitions.",
         "When you are done, place the bar back in the rack."
     ],
-    "tips": ["Shoulder blades back and down, bar to mid chest."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Barbell_Bench_Press_-_Medium_Grip"
-    }
+    "tips": ["Shoulder blades back and down, bar to mid chest."]
 }

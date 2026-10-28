@@ -15,9 +15,5 @@
         "Slowly begin to bring the curl bar back to starting position as your breathe in.",
         "Repeat for the recommended amount of repetitions."
     ],
-    "tips": ["Constant tension, squeeze at the top."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Standing_Biceps_Cable_Curl"
-    }
+    "tips": ["Constant tension, squeeze at the top."]
 }

@@ -16,9 +16,5 @@
         "Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.",
         "Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions."
     ],
-    "tips": ["Stop when you feel a stretch, not pain."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Dumbbell_Flyes"
-    }
+    "tips": ["Stop when you feel a stretch, not pain."]
 }

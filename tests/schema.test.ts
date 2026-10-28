@@ -27,7 +27,10 @@ describe("exerciseSchema", () => {
     test("accepts optional tips, source and the editor $schema key", () => {
         const exercise = {
             $schema: "../schema.json",
-            ...validExercise({ tips: ["Keep your feet flat."], source: { name: "free-exercise-db", id: "Bench" } }),
+            ...validExercise({
+                tips: ["Keep your feet flat."],
+                source: { name: "Strength Training Manual", id: "p. 42" },
+            }),
         };
         expect(issues(exercise)).toEqual([]);
     });

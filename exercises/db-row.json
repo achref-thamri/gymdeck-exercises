@@ -18,9 +18,5 @@
         "Repeat the movement for the specified amount of repetitions.",
         "Switch sides and repeat again with the other arm."
     ],
-    "tips": ["Pull the dumbbell toward your hip."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "One-Arm_Dumbbell_Row"
-    }
+    "tips": ["Pull the dumbbell toward your hip."]
 }

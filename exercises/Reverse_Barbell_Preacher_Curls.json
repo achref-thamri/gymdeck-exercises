@@ -15,9 +15,5 @@
         "As you exhale, use the biceps to curl the weight up until your biceps are fully contracted and the barbell is at shoulder height. Squeeze the biceps hard for a second at the contracted position.",
         "As you breathe in, slowly lower the barbell until your upper arms are extended and the biceps is fully stretched.",
         "Repeat for the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Reverse_Barbell_Preacher_Curls"
-    }
+    ]
 }

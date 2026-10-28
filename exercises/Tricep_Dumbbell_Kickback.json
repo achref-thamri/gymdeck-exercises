@@ -14,9 +14,5 @@
         "Now, while keeping your upper arms stationary, exhale and use your triceps to lift the weights until the arm is fully extended. Focus on moving the forearm.",
         "After a brief pause at the top contraction, inhale and slowly lower the dumbbells back down to the starting position.",
         "Repeat the movement for the prescribed amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Tricep_Dumbbell_Kickback"
-    }
+    ]
 }

@@ -17,9 +17,5 @@
         "Repeat until you have performed your set repetitions.",
         "Switch arms and repeat the movement.",
         "Switch arms again and repeat the movement."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "One_Arm_Supinated_Dumbbell_Triceps_Extension"
-    }
+    ]
 }

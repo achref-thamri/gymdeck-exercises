@@ -16,9 +16,5 @@
         "Lift the bar back up to the starting position as you exhale.",
         "Repeat for the recommended amount of repetitions."
     ],
-    "tips": ["Squeeze glutes, move your head back to clear the bar."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Barbell_Shoulder_Press"
-    }
+    "tips": ["Squeeze glutes, move your head back to clear the bar."]
 }

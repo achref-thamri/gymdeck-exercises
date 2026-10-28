@@ -16,9 +16,5 @@
         "Lower the handles slowly back to the starting position as you inhale.",
         "Repeat for the recommended amount of repetitions."
     ],
-    "tips": ["Seat height so handles start at shoulder level."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Machine_Shoulder_Military_Press"
-    }
+    "tips": ["Seat height so handles start at shoulder level."]
 }

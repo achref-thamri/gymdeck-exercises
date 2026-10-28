@@ -14,9 +14,5 @@
         "Extend one arm to press the dumbbell straight up, keeping your off hand in place. Do not lean or jerk the weight during the movement.",
         "After a brief pause, return the weight to the starting position.",
         "Repeat for the opposite side, continuing to alternate between arms."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Standing_Alternating_Dumbbell_Press"
-    }
+    ]
 }

@@ -15,9 +15,5 @@
         "Press the handles forward by extending through the elbow.",
         "After a brief pause at the top, return the weight just above the start position, keeping tension on the muscles by not returning the weight to the stops until the set is complete."
     ],
-    "tips": ["Handles level with mid chest."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Leverage_Chest_Press"
-    }
+    "tips": ["Handles level with mid chest."]
 }

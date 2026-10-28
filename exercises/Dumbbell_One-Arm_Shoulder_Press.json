@@ -16,9 +16,5 @@
         "As you exhale, push the dumbbell up until your arm is fully extended.",
         "After a second pause, slowly come down back to the starting position as you inhale.",
         "Repeat for the recommended amount of repetitions and then switch arms."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Dumbbell_One-Arm_Shoulder_Press"
-    }
+    ]
 }

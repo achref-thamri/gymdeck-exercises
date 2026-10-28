@@ -18,9 +18,5 @@
         "Repeat the movement for the prescribed amount of repetitions.",
         "When you are done, place the dumbbells back on your thighs and then on the floor. This is the safest manner to release the dumbbells."
     ],
-    "tips": ["Set the bench to about 30 degrees."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Incline_Dumbbell_Press"
-    }
+    "tips": ["Set the bench to about 30 degrees."]
 }

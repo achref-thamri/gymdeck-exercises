@@ -15,9 +15,5 @@
         "Return the weights to your side.",
         "On the next repetition, raise the weights laterally, raising them out to your side to about shoulder height.",
         "Return the weights to the starting position and continue alternating to the front and side."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Alternating_Deltoid_Raise"
-    }
+    ]
 }

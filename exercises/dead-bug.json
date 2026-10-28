@@ -18,9 +18,5 @@
         "Stay tight and return the working leg to the starting position.",
         "Repeat on the opposite side, alternating until the set is complete."
     ],
-    "tips": ["Lower back stays pressed into the floor."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Dead_Bug"
-    }
+    "tips": ["Lower back stays pressed into the floor."]
 }

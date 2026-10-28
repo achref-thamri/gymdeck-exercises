@@ -15,9 +15,5 @@
         "Perform the movement by rotating the trunk and hips as you swing the weight all the way down to one side. Keep your arms extended throughout the exercise.",
         "Reverse the motion to swing the weight all the way to the opposite side.",
         "Continue alternating the movement until the set is complete."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Landmine_180s"
-    }
+    ]
 }

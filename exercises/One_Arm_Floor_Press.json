@@ -17,9 +17,5 @@
         "Then start lifting the barbell back up to the original starting position. Remember to breathe out during the concentric (lifting part of the exercise).",
         "Repeat until you have performed your recommended repetitions.",
         "Switch arms and repeat the movement."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "One_Arm_Floor_Press"
-    }
+    ]
 }

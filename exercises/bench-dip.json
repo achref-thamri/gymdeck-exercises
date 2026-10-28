@@ -15,9 +15,5 @@
         "Using your triceps to bring your torso up again, lift yourself back to the starting position.",
         "Repeat for the recommended amount of repetitions."
     ],
-    "tips": ["Keep the back close to the bench."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Bench_Dips"
-    }
+    "tips": ["Keep the back close to the bench."]
 }

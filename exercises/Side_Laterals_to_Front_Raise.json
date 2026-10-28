@@ -16,9 +16,5 @@
         "Lower the weights with a controlled motion.",
         "On the next repetition, raise the weights in front of you to shoulder height before moving the weights laterally to your sides.",
         "Lower the weights to the starting position."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Side_Laterals_to_Front_Raise"
-    }
+    ]
 }

@@ -14,9 +14,5 @@
         "Flex the elbow to curl the weight, keeping the upper arm stationary. At the top of the repetition, flex the biceps and pause.",
         "Lower the dumbbell back to the starting position.",
         "Repeat the movement for the prescribed amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Standing_Concentration_Curl"
-    }
+    ]
 }

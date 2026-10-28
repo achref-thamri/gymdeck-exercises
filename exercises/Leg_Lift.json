@@ -15,9 +15,5 @@
         "Slowly bring the raised leg back to the floor as you breathe in.",
         "Repeat for the recommended amount of repetitions.",
         "Repeat the movement with the opposite leg."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Leg_Lift"
-    }
+    ]
 }

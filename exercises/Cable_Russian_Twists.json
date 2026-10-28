@@ -17,9 +17,5 @@
         "Pause for a moment and in a slow and controlled manner reset to the starting position. You should still have side tension on the cable in the resting position.",
         "Repeat the same movement to failure.",
         "Then, reposition and repeat the same series of movements on the opposite side."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Cable_Russian_Twists"
-    }
+    ]
 }

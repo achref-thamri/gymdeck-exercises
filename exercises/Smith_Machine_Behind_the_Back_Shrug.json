@@ -15,9 +15,5 @@
         "Initiate the movement by shrugging your shoulders straight up. Do not flex the arms or wrist during the movement.",
         "After a brief pause return the weight to the starting position.",
         "Repeat for the desired number of repetitions before engaging the hooks to rack the weight."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Smith_Machine_Behind_the_Back_Shrug"
-    }
+    ]
 }

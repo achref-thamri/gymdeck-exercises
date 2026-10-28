@@ -14,9 +14,5 @@
         "Pull the handle down, squeezing your elbow to your side as you flex the elbow.",
         "Pause at the bottom of the motion, and then slowly return the handle to the starting position.",
         "For multiple repetitions, avoid completely returning the weight to keep tension on the muscles being worked."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "One_Arm_Lat_Pulldown"
-    }
+    ]
 }

@@ -13,9 +13,5 @@
         "Facing a high pulley with a rope or dual handles attached, pull the weight directly towards your face, separating your hands as you do so.",
         "Keep your upper arms parallel to the ground."
     ],
-    "tips": ["Pull toward the eyes, thumbs end pointing back."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Face_Pull"
-    }
+    "tips": ["Pull toward the eyes, thumbs end pointing back."]
 }

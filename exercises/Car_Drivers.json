@@ -14,9 +14,5 @@
         "Initiate the movement by rotating the plate as far to one side as possible. Use the same type of movement you would use to turn a steering wheel to one side.",
         "Reverse the motion, turning it all the way to the opposite side.",
         "Repeat for the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Car_Drivers"
-    }
+    ]
 }

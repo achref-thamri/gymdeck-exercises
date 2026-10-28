@@ -15,9 +15,5 @@
         "Slowly lower the weight back to the original position as you inhale, ensuring that you do not go past the 90-degree angle limit.",
         "Repeat for the recommended amount of times."
     ],
-    "tips": ["Pause at the top for one second."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Leg_Extensions"
-    }
+    "tips": ["Pause at the top for one second."]
 }

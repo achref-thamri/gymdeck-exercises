@@ -17,9 +17,5 @@
         "Slowly begin to lift the barbell upwards and exhale. Hold the contracted position for a second as you squeeze the biceps.",
         "Slowly begin to bring the barbell back to the starting position as your breathe in. .",
         "Repeat for the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Spider_Curl"
-    }
+    ]
 }

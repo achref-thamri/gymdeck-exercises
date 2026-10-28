@@ -14,9 +14,5 @@
         "Initiate the movement by rotating your pelvis, flexing your spine to raise your hips off of the bench. Maintain a slight bend in the knees throughout the motion.",
         "After a brief pause, return the hips to the bench.",
         "Repeat for the desired number of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Smith_Machine_Hip_Raise"
-    }
+    ]
 }

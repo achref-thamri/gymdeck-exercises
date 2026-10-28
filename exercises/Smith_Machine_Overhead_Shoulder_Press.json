@@ -15,9 +15,5 @@
         "Slowly begin to lower the barbell until it is level with your chin while inhaling.",
         "Then lift the barbell back to the starting position using your shoulders while exhaling.",
         "Repeat for the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Smith_Machine_Overhead_Shoulder_Press"
-    }
+    ]
 }

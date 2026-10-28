@@ -16,9 +16,5 @@
         "After a second pause, bring the bar back down to the starting position as you breathe in.",
         "Repeat the movement for the prescribed amount of repetitions.",
         "When you are done, place the bar back in the rack."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Smith_Incline_Shoulder_Raise"
-    }
+    ]
 }

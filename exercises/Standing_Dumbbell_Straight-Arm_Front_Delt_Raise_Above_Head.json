@@ -15,9 +15,5 @@
         "Raise the dumbbells in a semicircular motion to arm's length overhead as you exhale.",
         "Slowly return to the starting position using the same path as you inhale.",
         "Repeat for the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head"
-    }
+    ]
 }

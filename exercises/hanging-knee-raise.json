@@ -15,9 +15,5 @@
         "Go back slowly to the starting position as you breathe in.",
         "Repeat for the recommended amount of repetitions."
     ],
-    "tips": ["Curl the pelvis up, no swinging."],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Hanging_Leg_Raise"
-    }
+    "tips": ["Curl the pelvis up, no swinging."]
 }

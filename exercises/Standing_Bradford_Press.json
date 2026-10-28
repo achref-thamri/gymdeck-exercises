@@ -16,9 +16,5 @@
         "Lift the bar back over your head by extending the elbows",
         "Lower the bar down to the starting position.",
         "Alternate in this manner until you complete the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Standing_Bradford_Press"
-    }
+    ]
 }

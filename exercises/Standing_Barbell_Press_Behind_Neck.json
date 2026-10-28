@@ -16,9 +16,5 @@
         "Elevate the barbell overhead by fully extending your arms while breathing out.",
         "Hold the contraction for a second and lower the barbell back down to the starting position by inhaling.",
         "Repeat for the recommended amount of repetitions."
-    ],
-    "source": {
-        "name": "free-exercise-db",
-        "id": "Standing_Barbell_Press_Behind_Neck"
-    }
+    ]
 }
